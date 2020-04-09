@@ -1,7 +1,9 @@
 .header{
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;;
 }
+
 
 .headerMenu a{
     display: inline-block;
@@ -12,9 +14,6 @@
     letter-spacing: 1.2px;
 }
 
-.headerMenu{
-    margin: 10px 0;;
-}
 
 .headerMenu a:hover{
     color: #5f9ea0;
