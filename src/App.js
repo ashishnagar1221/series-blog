@@ -4,6 +4,8 @@ import Home from './containers/Home';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import ContactUs from './containers/ContactUS';
+import Post from './containers/Post';
 
 function App() {
   return (
@@ -11,11 +13,10 @@ function App() {
         <div className="App">
       <Header/>
       <Hero/>
-
-      <Route path="/" component={Home}/>
-      <Home/>
+      <Route path="/"exact component={Home}/>
+      <Route path="/contact" component={ContactUs}/>
+      <Route path="/post" component = {Post}/>
     </div>
-
     </Router>
     
   );
