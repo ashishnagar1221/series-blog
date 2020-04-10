@@ -1,4 +1,6 @@
 .navbar{
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0;
 }
 .navbar ul{
@@ -19,4 +21,9 @@
     font-weight: 400;
     color: #565673;
     padding: 0 10px;
+}
+
+.search{
+    display: flex;
+    margin:0 10px;
 }
