@@ -1,14 +1,20 @@
 import React from 'react';
-import './style.css'
+import Card from '../UI/Card';
+import './style.css';
 
 /**
 * @author
 * @function BlogPost
 **/;
 
+
 const BlogPost = (props) => {
   return(
-    <div>BlogPost</div>
+    
+      <Card style={{width:'70%'}}>
+        This is my first blog Post
+      </Card>
+    
    )
 
  }
