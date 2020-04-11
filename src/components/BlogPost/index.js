@@ -10,10 +10,18 @@ import './style.css';
 
 const BlogPost = (props) => {
   return(
-    
-      <Card style={{width:'70%'}}>
-        This is my first blog Post
-      </Card>
+    <div className='blogPostContainer'>
+        <Card>
+        <div className='blogHeader'>
+            <span className='blogCategory'>Featured</span>
+            <h1 className='postTitle'>Beauty of Bihar</h1>
+            <span className='postedBy'>posted on july 2018, by Ashish Kaushik</span>
+        </div>
+        <div className='postImageContainer'>
+            <img src={require('../../NewFolder/RohtasFortGate.jpg')} alt='Post Image'/>    
+        </div>
+        </Card>
+    </div>
     
    )
 
